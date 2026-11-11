@@ -24,6 +24,19 @@ Set `GITHUB_TOKEN` to raise the API rate limit (optional for public repos).
 
 The included workflow (`.github/workflows/report.yml`) runs every Monday and on demand. The report appears in the run's job summary. Fork this repo and run **Actions > Repo health report > Run workflow**.
 
+## Example output
+
+A real run on my own account, before I cleaned the repos up:
+
+**Repo health report for RobinSishodia**
+
+| Repo | Stars | Issues found |
+|---|---|---|
+| 120-days-of-aws | 0 | no license, no topics |
+| github-achievements-practice | 0 | no description, no license, no topics |
+| skills-scale-institutional-knowledge-using-copilot-spaces | 0 | no description, no topics, 1 stale PR(s) |
+| terraform-aws-webapp | 0 | no license, no topics |
+
 ## Requirements
 
 Python 3.8+. No third-party packages.
